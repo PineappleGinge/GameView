@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>GameView</title>
+    <link rel="icon" href="Images/Glasses.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href ="Style/StyleSheet.css">
+    <style>
+        .required ::after {
+            content: " *";
+            color: red;
+            font-size: 20px;
+        }
+    </style>
+    
+    
+</head>
+
+<body>
+
+    <header class="Top_header">
+        <img style="float:left; margin-right:10px;" src="Images/Glasses.png" alt="Glasses" width="110">
+        
+        <h1> GameView </h1>
+        
+        
+    </header>
+    <nav>
+        
+       <ul>
+        <li> <a href="index.html"> Home </a></li> 
+        <li> <a href="skyrim.html"> Skyrim </a></li> 
+        <li> <a href="gtav.html"> GTAV </a></li> 
+        <li> <a href="minecraft.html"> Minecraft </a></li> 
+        <li class="active"> <a href="contact.html"> Contact</a></li>
+       </ul>
+    </nav>
+
+    <main> 
+       
+
+       <section class="container">
+        <h2 class="header_"> Contact Form</h2>
+        <form action="action_page.php">
+
+          <label class="required " >First Name</label>
+          <input type="text"  name="firstname" placeholder="Your name..">
+      
+          <label >Last Name</label>
+          <input type="text" name="lastname" placeholder="Your last name..">
+      
+          <label >Subject</label>
+          <textarea name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+    </section> 
+    
+
+
+    </main>
+    <footer>
+        <p>Copyright 2024 Dara O'Rourke</p>
+    </footer>
+</body>
+</html>
